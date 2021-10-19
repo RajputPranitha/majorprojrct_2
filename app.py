@@ -1,8 +1,9 @@
 import os
 #pip install adafruit-io
-from Adafruit_IO import Client,Feed,RequestError
+from Adafruit_IO import Client
+username_1= os.getenv('username')
 key_1= os.getenv('key')
-aio = Client('harika3112',key_1)
+aio = Client(username_1,key_1)
 from telegram.ext import Updater, MessageHandler, Filters
 
 def demo1(bot,update):
