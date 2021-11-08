@@ -37,7 +37,7 @@ def main(bot,update):
   elif a=='fans off' or a=='turn off fans' or a=='turn fans off' or a=='turn off fan' or a=='off fan' or a=='fan off' or a=='off fans' or a=='turn fan off' :
     demo4(bot,update)
 
-bot_token ='2060580694:AAF0H6Ri0hzY7tf5BhjCdBRuuzsuOOufD_4'
+bot_token ='2059192898:AAG8JzDAOC8KOzc5cHkNZLSDHb_h7H8uGpk'
 u = Updater(bot_token,use_context=True)
 dp=u.dispatcher
 dp.add_handler(MessageHandler(Filters.text,main))
